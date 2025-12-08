@@ -1,0 +1,471 @@
+ 
+        /* body information */
+         
+        body{
+            background-color:rgb(67, 85, 164);
+            text-align: center;
+            justify-content:center ;
+            align-items: center;
+        }
+        /* logo information */
+         
+        .circle{
+            height: 20vh;
+            width: 20vh;
+            color:white;
+            background-color:rgba(255, 255, 255, 0.1);
+            box-sizing: content-box;
+            border-radius: 200px;
+            padding: 40px;
+            display: inline-block;
+            text-align: center;
+            font-style: italic;
+            font-size: 2em;
+            margin-top: 16vh;
+            transition: transform 0.3s ease;
+            background-image: url("https://i.ibb.co/wrRGjjnf/sky-image2.jpg");
+            background-size:cover;
+        
+        }
+
+        .circle:hover{
+            transform:scale(1.1);
+        
+        }
+
+          /* yasinshaik And creative frontend developer headings information */
+        .rel{
+            color: white;
+            font-family:Arial, Helvetica, sans-serif;
+            font-style: italic;
+            opacity: 0,9;
+            font-size: 4em;
+        }
+        .fak{
+            color: white;
+             font-family: Georgia, serif;
+            font-size: 1.5em;
+            gap: 1rem;
+            opacity: 0.9;
+            font-style: italic;
+        }
+
+          /* navbar information */
+
+         nav{ 
+            border-style: solid;
+            border-color: rgb(76, 150, 234);
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 60px;
+            display:flex;
+            display: inline-block;
+            padding: 40px;
+            gap: 1rem;
+         }
+
+        /* About button information */
+
+        .ghu:hover{
+            transform: scale(0.9);
+             background-color:rgb(3, 40, 71);
+             
+            
+         }
+        .ghu{
+            text-decoration:solid;
+            color: white;
+            border-radius: 30px;
+            padding: 20px;
+            font-size: 4vh;
+        
+         }
+
+           /* Skills button information */
+
+        .tun{
+            text-decoration: solid;
+            color: white;
+            border-radius: 30px;
+            padding: 20px;
+            font-size: 4vh;
+        }
+        .tun:hover{
+             transform:scale(1.1);
+             background-color:rgb(3, 40, 71);
+        }
+
+        /* Project button Information */
+
+        .gvm{
+            text-decoration: solid;
+            color:white;
+            border-radius: 30px;
+            padding: 20px;
+            font-size: 4vh;
+        }
+        .gvm:hover{
+            transform:scale(1.1);
+            background-color:rgb(3, 40, 71);
+        }
+
+        /* Contact button information */
+
+        .vgb{
+            text-decoration: solid;
+            color:white;
+            border-radius: 30px;
+            padding: 20px;
+            font-size: 4vh;
+        }
+        .vgb:hover{
+            transform:scale(1.1);
+            background-color:rgb(3, 40, 71);
+        }
+    
+        /* Abuot section information */
+        .about{
+            margin-bottom: 80px;
+        }
+        .about-title{
+            color: white;
+            font-size:2em ;
+        }
+        .tui{
+            color: white;
+            background-color:rgba(255, 255, 255, 0.1) ;
+            border-radius: 20px;
+            font-size: 1.3em;
+            line-height: 6vh;
+            padding: 50px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+           
+        }
+
+        /* Skills section and skill container information */
+
+        .rty{
+            color: rgb(255, 255, 255);
+            font-size:5em ;
+        }
+        .trv{
+            display: grid;
+            align-items: center;
+            justify-items: center;
+    
+        }
+        .skills-container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 2.5rem;
+            width: 980px;
+        }                               
+        .grid-item{
+            aspect-ratio: 1;
+            background-color:rgba(255, 255, 255, 0.1);
+            border-radius: 15px; 
+       
+        }
+        .grid-item:hover{
+            transform: scale(1.05);
+            background-color: rgb(2, 51, 94);
+        }
+
+        /* in skills grid-item-1 information */
+
+        .rn{
+            font-size: 8vh;
+            padding:19px;
+        }
+        .pl{
+             font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color:white;
+        }
+        .pm{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color:white;
+            font-size: 1.2rem;
+        }
+
+        /*  in skills Grid-item-2 information */
+        .ol{
+            padding: 20px;
+            font-size: 7vh;
+        }
+        .fc{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color:white;
+            padding: 15px;
+           
+
+        }
+        #yu{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color:white;
+            font-size: 1.2rem;
+        }
+         /* in skills grid-item 3 information */
+        .rn{
+            font-size: 8vh;
+            padding:17px;
+        }
+        .fc{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color:white;
+            padding: 15px;
+        }
+        #yu{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color:white;
+            font-size: 1.2rem;
+        }
+
+         /* in Skiils  grid-item4 infromation */
+        .rn{
+            font-size: 8vh;
+            padding:17px;
+        }
+        .fc{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color:white;
+            padding: 15px;
+        }
+        .mp{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color:white;
+            font-size: 1.3rem;
+        }
+        /* in skills grid-item5 information */
+        .rn{
+            font-size: 8vh;
+            padding:17px;
+        }
+        .fc{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color:white;
+            padding: 15px;
+        }
+        .mp{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color:white;
+            font-size: 1.3rem;
+        }
+
+        /* project section information */
+       
+        .gvr{
+            font-size: 9vh;
+            padding:19px;
+            color: rgb(255, 255, 255);
+            
+        }
+        .qwe{
+            display: grid;
+            align-items: center;
+            justify-items: center;
+        }
+        #project-container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10rem;
+            width: 1000px;
+
+        }
+         /* in projects grid-item 1 information*/
+        .zx{
+           font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color:white;
+        }
+        .tg{
+            padding: 20px;
+            
+        }
+        .po{
+            color:white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+        }
+        .op{
+            height: 50px;
+            width: 100px;
+            border-radius: 15px;
+            background-color:rgba(2, 137, 255, 0.1);
+        }
+        .op:hover{
+            background-color: rgb(0, 71, 133);
+            transform: scale(1.1);
+        }
+        #okm{
+            text-decoration: solid;
+            color: white;
+            font-size: 2.5vh;
+        
+        }
+        /* in project grid-item 2 information */
+
+        .hj{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color: white;
+        }
+        .hjn{
+            padding: 20px;
+        }
+
+        /* connect form information */
+        .section-title{
+            color: white;
+            font-size:4em ;
+        }
+        .olm{
+            color: #fff;
+            font-size: 1.5rem;
+            text-align: left;
+
+        }
+        .ujk{
+            color: #fff;
+            font-size: 1.5rem;
+            text-align: left;
+        }
+        .yhb{
+            color: #fff;
+            font-size: 1.5rem;
+            text-align: left;
+        }
+         .contact-form {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            margin: 0 auto;
+            backdrop-filter: blur(10px);
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            font-size: 1.3em;
+        }
+
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        /* submit button information */
+        .submit-btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+
+        .submit-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        /* footer information */
+        footer{
+            color: #fff;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: left;
+            font-size: 1.5rem;
+        }
+        .cx{
+            text-align:center;
+        }
+        .cf{
+            color: #fff;
+            text-decoration: solid;
+        }
+        .cf:hover{
+            background-color: rgb(4, 4, 47);
+            transform: scale(1.1);
+            padding: 10px;
+            border-radius: 15px;
+        }
+
+        /* contact buttons information */
+
+        .tfc{
+            display: flex;
+            gap: 20px;
+            /* grid-template-columns: repeat(1.1fr); */
+        }
+
+        .vnk{
+            background-color:rgb(7, 7, 53);
+            height: 7vh;
+            width: 15vh;
+            border-radius: 25px;
+        }
+        .vnk:hover{
+            transform: scale(0.9);
+            background-color: rgb(27, 0, 161);
+            border-radius: 40px;
+            border-style: solid;
+        }
+        .bhu{
+            color:white;
+            font-size: 3vh;
+            text-decoration: solid;
+        }
+
+        /*GO TO TOP button information */
+        .der{
+            background-color:rgb(18, 18, 82);
+            height: 5ch;
+            width: 20vh;
+            border-radius: 20px;
+        }
+        .der:hover{
+            transform: scale(1.1);
+            background-color: rgb(27, 0, 161);
+            border-radius: 40px;
+            border-style: solid;
+        }
+        .red{
+            color:white;
+            font-size: 2vh;
+            text-decoration: solid;
+        }
+
+
+
+
+        
+        
+    
